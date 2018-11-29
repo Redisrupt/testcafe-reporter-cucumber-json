@@ -1,7 +1,7 @@
 import { IReporterlPluginHost } from "./reporter-interface";
 
 // tslint:disable:no-var-requires
-const ReporterPluginHost = require("testcafe/lib/reporter/plugin-host");
+const ReporterPluginHost = require("@redisrupt/testcafe/lib/reporter/plugin-host");
 const outStream: string = "";
 const plugin: IReporterlPluginHost = new ReporterPluginHost({}, outStream);
 
